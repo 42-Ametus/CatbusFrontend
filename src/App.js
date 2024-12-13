@@ -183,7 +183,7 @@ const RouteCalculator = () => {
         throw new Error('Invalid route selected');
       }
 
-      const API_URL = process.env.REACT_APP_API_URL || 'https://catbusbackend.onrender.com';
+      const API_URL = process.env.REACT_APP_API_URL || 'https://catbusbackend.onrender.com/api/calculate';
 
       const response = await fetch(API_URL, {
         method: 'POST',
