@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CatbusFrontend/static/css/main.9db9826b.css",
+    "main.js": "/CatbusFrontend/static/js/main.15466732.js",
+    "static/js/488.4f3d3f85.chunk.js": "/CatbusFrontend/static/js/488.4f3d3f85.chunk.js",
+    "index.html": "/CatbusFrontend/index.html",
+    "main.9db9826b.css.map": "/CatbusFrontend/static/css/main.9db9826b.css.map",
+    "main.15466732.js.map": "/CatbusFrontend/static/js/main.15466732.js.map",
+    "488.4f3d3f85.chunk.js.map": "/CatbusFrontend/static/js/488.4f3d3f85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db9826b.css",
+    "static/js/main.15466732.js"
+  ]
+}
