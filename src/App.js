@@ -224,7 +224,7 @@ const RouteCalculator = () => {
     <div className="min-h-screen p-4">
       <div className="flex justify-center">
         <img 
-          src="/catbusLogo.png" // Update this path to your logo
+          src={`${process.env.PUBLIC_URL}/catbusLogo.png`} // Update this path to your logo
           alt="Logo"
           className="h-48 w-auto" // Adjust size as needed
         />
