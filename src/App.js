@@ -48,6 +48,18 @@ const routesConfig = {
       "collateral": 0,
       "maxSize": 360000,
       "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
+    },
+    "Aeschee+Jita": {
+      "cost": 600,
+      "collateral": 1,
+      "maxSize": 110000,
+      "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
+    },
+    "Jita+Aeschee": {
+      "cost": 600,
+      "collateral": 0,
+      "maxSize": 360000,
+      "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
     }
   }
 };
