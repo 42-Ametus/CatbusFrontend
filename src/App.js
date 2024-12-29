@@ -47,7 +47,7 @@ const routesConfig = {
       "cost": 600,
       "collateral": 0,
       "maxSize": 360000,
-      "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
+      "dest": "Toon VIII - Moon 2 - Genolution Biotech Research Center"
     },
     "Aeschee+Jita": {
       "cost": 600,
@@ -59,7 +59,7 @@ const routesConfig = {
       "cost": 600,
       "collateral": 0,
       "maxSize": 360000,
-      "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
+      "dest": "Aeschee X - Moon 20 - Sisters of EVE Academy"
     }
   }
 };
