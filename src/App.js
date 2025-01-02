@@ -19,6 +19,12 @@ const routesConfig = {
       "maxSize": 360000,
       "dest": "4-HWWF - WinterCo. Central Station"
     },
+    "4-HWWF+W-4FA9": {
+      "cost": 700,
+      "collateral": 0,
+      "maxSize": 360000,
+      "dest": "W-4FA9 - Demon Spawner"
+    },
     "Jita+W-4FA9": {
       "cost": 800,
       "collateral": 0,
