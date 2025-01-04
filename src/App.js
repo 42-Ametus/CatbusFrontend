@@ -8,62 +8,62 @@ import { Textarea } from './components/ui/textarea';
 const routesConfig = {
   "routes": {
     "W-4FA9+Jita": {
-      "cost": 800,
+      "cost": 950,
       "collateral": 1,
       "maxSize": 110000,
       "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
     },
     "W-4FA9+4-HWWF": {
-      "cost": 700,
+      "cost": 800,
       "collateral": 0,
       "maxSize": 360000,
       "dest": "4-HWWF - WinterCo. Central Station"
     },
     "4-HWWF+W-4FA9": {
-      "cost": 700,
-      "collateral": 0,
-      "maxSize": 360000,
-      "dest": "W-4FA9 - Demon Spawner"
-    },
-    "Jita+W-4FA9": {
       "cost": 800,
       "collateral": 0,
       "maxSize": 360000,
       "dest": "W-4FA9 - Demon Spawner"
     },
+    "Jita+W-4FA9": {
+      "cost": 950,
+      "collateral": 0,
+      "maxSize": 360000,
+      "dest": "W-4FA9 - Demon Spawner"
+    },
     "Jita+4-HWWF": {
-      "cost": 250,
+      "cost": 400,
       "collateral": 0,
       "maxSize": 360000,
       "dest": "4-HWWF - WinterCo. Central Station"
     },
     "4-HWWF+Jita": {
-      "cost": 250,
+      "cost": 400,
       "collateral": 1,
       "maxSize": 110000,
       "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
     },
     "Toon+Jita": {
-      "cost": 600,
+      "cost": 700,
       "collateral": 1,
       "maxSize": 110000,
       "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
     },
     "Jita+Toon": {
-      "cost": 600,
-      "collateral": 0,
+      "cost": 700,
+      "collateral": .5,
       "maxSize": 360000,
       "dest": "Toon VIII - Moon 2 - Genolution Biotech Research Center"
     },
     "Aeschee+Jita": {
-      "cost": 600,
+      "cost": 700,
       "collateral": 1,
       "maxSize": 110000,
       "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
     },
     "Jita+Aeschee": {
-      "cost": 600,
-      "collateral": 0,
+      "cost": 700,
+      "collateral": .5,
       "maxSize": 360000,
       "dest": "Aeschee X - Moon 20 - Sisters of EVE Academy"
     }
