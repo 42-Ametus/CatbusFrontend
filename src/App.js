@@ -8,7 +8,7 @@ import { Textarea } from './components/ui/textarea';
 const routesConfig = {
   "routes": {
     "W-4FA9+Jita": {
-      "cost": 950,
+      "cost": 800,
       "collateral": 1,
       "maxSize": 110000,
       "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
@@ -26,7 +26,7 @@ const routesConfig = {
       "dest": "W-4FA9 - Demon Spawner"
     },
     "Jita+W-4FA9": {
-      "cost": 950,
+      "cost": 800,
       "collateral": 0,
       "maxSize": 360000,
       "dest": "W-4FA9 - Demon Spawner"
