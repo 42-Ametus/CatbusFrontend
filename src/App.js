@@ -4,7 +4,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Button } from './components/ui/button';
 import { Textarea } from './components/ui/textarea';
 
-// This would be loaded from your JSON file
 const routesConfig = {
   "routes": {
     "W-4FA9+Jita": {
@@ -105,7 +104,7 @@ const CopyDisplay = ({ label, value, isCopyableNumber = false, isCopyableText = 
         const numericValue = value.replace(/[^0-9.]/g, '');
         await navigator.clipboard.writeText(numericValue);
         setCopied(true);
-        setTimeout(() => setCopied(false), 300); // Reset after 500ms
+        setTimeout(() => setCopied(false), 300); // Reset after 300ms
       } catch (err) {
         console.error('Failed to copy:', err);
       }
@@ -114,7 +113,7 @@ const CopyDisplay = ({ label, value, isCopyableNumber = false, isCopyableText = 
       try {
         await navigator.clipboard.writeText(value);
         setCopied(true);
-        setTimeout(() => setCopied(false), 300); // Reset after 500ms
+        setTimeout(() => setCopied(false), 300); // Reset after 300ms
       } catch (err) {
         console.error('Failed to copy:', err);
       }
@@ -150,7 +149,6 @@ const RouteCalculator = () => {
     volume: 0,
     totalCost: 0,
     packageValue: 0
-    // Add any other result fields you need
   });
 
   // Get unique pickup and destination locations from valid routes
@@ -222,7 +220,6 @@ const RouteCalculator = () => {
         },
         body: JSON.stringify({
           data: inputData,
-          // Add any other parameters needed
         })
       });
 
@@ -241,7 +238,6 @@ const RouteCalculator = () => {
         volume: apiResult.totalPackagedVolume || 0,
         packageValue: apiResult.immediatePrices.totalSellPrice,
         totalCost: routeConfig.cost * apiResult.totalPackagedVolume + routeConfig.collateral * apiResult.immediatePrices.totalSellPrice / 100
-        // Add any other calculated results
       }));
     } catch (err) {
       setError(err.message);
@@ -254,9 +250,9 @@ const RouteCalculator = () => {
     <div className="min-h-screen p-4">
       <div className="flex justify-center">
         <img 
-          src={`${process.env.PUBLIC_URL}/catbusLogo.png`} // Update this path to your logo
+          src={`${process.env.PUBLIC_URL}/catbusLogo.png`}
           alt="Logo"
-          className="h-48 w-auto" // Adjust size as needed
+          className="h-48 w-auto"
         />
       </div>
       <div className="flex flex-col lg:flex-row gap-6 p-4 max-w-6xl mx-auto">
@@ -359,5 +355,3 @@ const RouteCalculator = () => {
 };
 
 export default RouteCalculator;
-
-//static height for copy area

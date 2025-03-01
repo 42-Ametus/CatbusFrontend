@@ -6,7 +6,7 @@ const Select = SelectPrimitive.Root
 const SelectTrigger = React.forwardRef(({ className, children, ...props }, ref) => (
   <SelectPrimitive.Trigger
     ref={ref}
-    className="w-full px-3 py-2 border rounded-md bg-white text-left" // Added text-left here
+    className="w-full px-3 py-2 border rounded-md bg-white text-left"
     {...props}
   >
     {children}
@@ -32,7 +32,7 @@ const SelectContent = React.forwardRef(({ className, children, ...props }, ref) 
 const SelectItem = React.forwardRef(({ className, children, ...props }, ref) => (
   <SelectPrimitive.Item
     ref={ref}
-    className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-left w-full" // Added text-left and w-full here
+    className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-left w-full"
     {...props}
   >
     <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>
