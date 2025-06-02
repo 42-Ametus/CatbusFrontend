@@ -327,25 +327,25 @@ const RouteCalculator = () => {
             <h3 className="font-medium mb-4">Route Info</h3>
             <div className="space-y-1">
               <ResultDisplay label="Route Cost" value={`${results.routeCost} ISK/m³`} />
-              <ResultDisplay label="Collateral" value={`${results.collateral.toLocaleString()} %`} />
-              <ResultDisplay label="Max Size" value={`${results.maxSize.toLocaleString()} m³`} />
+              <ResultDisplay label="Collateral" value={`${results.collateral} %`} />
+              <ResultDisplay label="Max Size" value={`${results.maxSize} m³`} />
             </div>
             <br/>
             <h3 className="font-medium mb-4">Package Info</h3>
             <div className="space-y-1">
-              <ResultDisplay label="Volume" value={`${results.volume.toLocaleString()} m³` }/>
+              <ResultDisplay label="Volume" value={`${results.volume} m³` }/>
               <ResultDisplay 
                 label="Total Cost" 
-                value={`${results.totalCost.toLocaleString()} ISK`} 
+                value={`${results.totalCost} ISK`} 
               />
             </div>
             <br/>
             <h3 className="font-medium mb-4">Copy Me</h3>
             <div className="space-y-1">
               <CopyDisplay label="Corp" value={`Catbus Logistics` } isCopyableText={true}/>
-              <CopyDisplay label="Destination" value={`${destString.toLocaleString()}` } isCopyableText={true}/>
-              <CopyDisplay label="Reward" value={`${results.totalCost.toLocaleString()}` } isCopyableNumber={true}/>
-              <CopyDisplay label="Collateral" value={`${results.packageValue.toLocaleString()}` } isCopyableNumber={true}/>
+              <CopyDisplay label="Destination" value={`${destString}` } isCopyableText={true}/>
+              <CopyDisplay label="Reward" value={`${results.totalCost}` } isCopyableNumber={true}/>
+              <CopyDisplay label="Collateral" value={`${results.packageValue}` } isCopyableNumber={true}/>
             </div>
           </CardContent>
         </Card>
