@@ -65,7 +65,31 @@ const routesConfig = {
       "collateral": .5,
       "maxSize": 360000,
       "dest": "Aeschee X - Moon 20 - Sisters of EVE Academy"
-    }
+    },
+    "BKG-Q2+Jita": {
+      "cost": 800,
+      "collateral": 1,
+      "maxSize": 110000,
+      "dest": "Jita IV - Moon 4 - Caldari Navy Assembly Plant"
+    },
+    "BKG-Q2+4-HWWF": {
+      "cost": 800,
+      "collateral": 0,
+      "maxSize": 360000,
+      "dest": "4-HWWF - WinterCo. Central Station"
+    },
+    "4-HWWF+BKG-Q2": {
+      "cost": 800,
+      "collateral": 0,
+      "maxSize": 360000,
+      "dest": "BKG-Q2 - EVIL STAGING"
+    },
+    "Jita+BKG-Q2": {
+      "cost": 800,
+      "collateral": 0,
+      "maxSize": 360000,
+      "dest": "BKG-Q2 - EVIL STAGING"
+    },
   }
 };
 
