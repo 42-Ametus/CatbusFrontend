@@ -82,13 +82,13 @@ const routesConfig = {
       "cost": 800,
       "collateral": 0,
       "maxSize": 360000,
-      "dest": "BKG-Q2 - EVIL STAGING"
+      "dest": "BKG-Q2 - Insidious Prime"
     },
     "Jita+BKG-Q2": {
       "cost": 800,
       "collateral": 0,
       "maxSize": 360000,
-      "dest": "BKG-Q2 - EVIL STAGING"
+      "dest": "BKG-Q2 - Insidious Prime"
     },
   }
 };
@@ -360,7 +360,7 @@ const RouteCalculator = () => {
               <ResultDisplay label="Volume" value={`${results.volume} m³` }/>
               <ResultDisplay 
                 label="Total Cost" 
-                value={`${results.totalCost} ISK`} 
+                value={`${Math.floor(results.totalCost)} ISK`} 
               />
             </div>
             <br/>
@@ -368,8 +368,8 @@ const RouteCalculator = () => {
             <div className="space-y-1">
               <CopyDisplay label="Corp" value={`Catbus Logistics` } isCopyableText={true}/>
               <CopyDisplay label="Destination" value={`${destString}` } isCopyableText={true}/>
-              <CopyDisplay label="Reward" value={`${results.totalCost}` } isCopyableNumber={true}/>
-              <CopyDisplay label="Collateral" value={`${results.packageValue}` } isCopyableNumber={true}/>
+              <CopyDisplay label="Reward" value={`${Math.floor(results.totalCost)}` } isCopyableNumber={true}/>
+              <CopyDisplay label="Collateral" value={`${Math.floor(results.packageValue)}` } isCopyableNumber={true}/>
             </div>
           </CardContent>
         </Card>
